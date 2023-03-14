@@ -27,7 +27,7 @@ def swift_down(data,i,n):
         
     if i != min:
         swaps.append((i,min))
-        data[i], data[min]] = data[min], data[i]
+        data[i], data[min] = data[min], data[i]
         swaps += sift_down(data, min,n)
       
     return swaps 

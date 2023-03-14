@@ -52,7 +52,7 @@ def main():
      
     elif n =='F':
         file = input()
-        with open("./test/"+file, 'r') as f:
+        with open("test/" + file, 'r') as f:
              n = int(f.readline().strip())
              data = list(map(int, f.readline().strip().split()))
              assert len(data) == n

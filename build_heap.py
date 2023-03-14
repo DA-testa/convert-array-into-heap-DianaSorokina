@@ -13,7 +13,7 @@ def build_heap(data):
 
     return swaps
 
-def swift_down(data,i,n):
+def sift_down(data,i,n):
     swaps = []
     min = i
     
